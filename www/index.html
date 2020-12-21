@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Cargas e Servicos</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+
+    <!-- Left panel with cover effect-->
+    <div class="panel panel-left panel-cover panel-init">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">Servicos</div>
+            </div>
+          </div>
+
+          <a href="#" class="floating-button color-pink">
+            <i class="icon icon-plus"></i>
+          </a>
+
+          <div class="page-content">
+            <div class="list-block">
+                  <ul>
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="title">Produtos Disponiveis</div>
+                        </div>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Registar-se</div>
+                        </div>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Iniciar Sessão</div>
+                        </div>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Acerca da App</div>
+                        </div>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="#" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Versão</div>
+                        </div>
+                      </a>
+                    </li>
+                    
+                  </ul>
+          
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar theme-deeppurple">
+          <div class="navbar-inner" style="background-color: 	
+          #673ab7; color: white;">
+            <!-- We have home navbar without left link-->
+            
+            <div class="right" style="color: white;">
+              <!-- Right link contains only icon - additional "icon-only" class-->
+              <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+
+              <div class="swiper-custom">
+                <div class="swiper-container">
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/03.png" width="100%" height="20%">
+                 </div>
+
+                    <div class="swiper-slide">
+                      <img src="img/01.png" width="100%" height="20%">
+                     </div>
+                    <div class="swiper-slide">
+                      <img src="img/05.jpg" width="100%" height="20%"></div>
+                    
+                  </div>
+                </div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+              </div>
+              <a href="services.html">LINK TO DATA</a>
+          
+              <div class="results"></div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar tabbar" style="background-color: 	
+        #673ab7">
+            <div class="toolbar-inner">
+
+                <a href="services.html" class="tab-link active">
+                  <i class="icon f7-icons">bars</i>
+                    <!-- <span class="tabbar-label">Home</span> -->
+                </a>
+
+                <a href="#tab2" onclick="getDataf7()" class="tab-link getDataButton">
+                  <i class="icon f7-icons">person</i>
+                    <!-- <span class="tabbar-label">Utilizador</span> -->
+                </a>
+
+                <a href="#services" class="tab-link">
+                  <i class="icon f7-icons">gear</i>
+                  <!-- <span class="tabbar-label">Movimentos</span> -->
+              </a>
+
+                <a href="about.html" class="tab-link">
+                  <i class="icon f7-icons">chats</i>
+                    <!-- <span class="tabbar-label">Chats</span> -->
+                </a>
+                
+            </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
