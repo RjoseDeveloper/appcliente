@@ -27,24 +27,18 @@
           <div class="navbar">
             <div class="navbar-bg"></div>
             <div class="navbar-inner">
-              <div class="title">Servicos</div>
+              <div class="title">Produtos Disponiveis</div>
             </div>
           </div>
 
           <a href="#" class="floating-button color-pink">
-            <i class="icon icon-plus"></i>
+            <i class="icon f7-icons">plus</i>
           </a>
 
           <div class="page-content">
             <div class="list-block">
                   <ul>
-                    <li>
-                      <a href="#" class="item-link item-content">
-                        <div class="item-inner">
-                          <div class="title">Produtos Disponiveis</div>
-                        </div>
-                      </a>
-                    </li>
+                   
         
                     <li>
                       <a href="form.html" class="item-link item-content">
@@ -171,8 +165,33 @@
                 <div class="swiper-button-next"></div> -->
               </div>
               <a href="services.html">LINK TO DATA</a>
+
+              <!-- Tabs wrapper, shoud have "tabs" class.It is a required element -->
+<div class = "tabs">
+  <!-- The tab, should have "tab" class and unique id attribute -->
+  
+  <!-- The tab is active by default - "active" class -->
+  <div class = "tab active" id = "tab1">
+    <div class="results"></div>
+  </div>
+  
+  <!-- The second tab, should have "tab" class and unique id attribute -->
+  <div class = "tab" id = "tab2">
+    <h1>tab2</h1>
+  </div>
+
+   <!-- The second tab, should have "tab" class and unique id attribute -->
+   <div class = "tab" id = "tab3">
+    <h1>tab3</h1>
+  </div>
+
+   <!-- The second tab, should have "tab" class and unique id attribute -->
+   <div class = "tab" id = "tab4">
+    <h1>tab4</h1>
+  </div>
+</div>
           
-              <div class="results"></div>
+             
 
             </div>
           </div>
@@ -182,22 +201,22 @@
         #673ab7">
             <div class="toolbar-inner">
 
-                <a href="services.html" class="tab-link active">
-                  <i class="icon f7-icons">bars</i>
+                <a href="#tab1" class="tab-link active">
+                  <i class="icon f7-icons">plus</i>
                     <!-- <span class="tabbar-label">Home</span> -->
                 </a>
 
-                <a href="#tab2" onclick="getDataf7()" class="tab-link getDataButton">
+                <a href="#tab2" class="tab-link">
                   <i class="icon f7-icons">person</i>
                     <!-- <span class="tabbar-label">Utilizador</span> -->
                 </a>
 
-                <a href="#services" class="tab-link">
+                <a href="#tab3" class="tab-link">
                   <i class="icon f7-icons">gear</i>
                   <!-- <span class="tabbar-label">Movimentos</span> -->
               </a>
 
-                <a href="about.html" class="tab-link">
+                <a href="#tab4" class="tab-link">
                   <i class="icon f7-icons">chats</i>
                     <!-- <span class="tabbar-label">Chats</span> -->
                 </a>
